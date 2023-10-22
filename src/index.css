@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: #FFFFFF;
+  font-family: 'Roboto', sans-serif; /* Fuente general */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New', monospace; /* Fuente para elementos <code> */
+}
+
+.logo {
+  transform: translate(-10px, 25px); /* Mueve la imagen 70 píxeles a la izquierda y 100 píxeles hacia arriba */
+  width: 500px; /* Define el ancho de la imagen en 200 píxeles */
+  height: 400px;
+}
+.esquina {
+  transform: translate(-148px, 35px); /* Mueve la imagen 70 píxeles a la izquierda y 100 píxeles hacia arriba */
+  width: 150px; /* Define el ancho de la imagen en 200 píxeles */
+  height: 150px;
+}
+
+.esquina2 {
+  transform: translate(315px, -25px); /* Mueve la imagen 70 píxeles a la izquierda y 100 píxeles hacia arriba */
+  width: 150px; /* Define el ancho de la imagen en 200 píxeles */
+  height: 150px;
+}
+
+.dog {
+  transform: translate(178px, 43px); /* Mueve la imagen 70 píxeles a la izquierda y 100 píxeles hacia arriba */
+  width: 400px; /* Define el ancho de la imagen en 200 píxeles */
+  height: 370px;
+}
