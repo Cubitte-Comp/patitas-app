@@ -10,7 +10,7 @@ export default function Form(){
                     <label className='text-lg font-medium text-center flex items-center'>Correo Electronico</label>
                     <input
                     className='w-full border-2 border-black p-4 mt-2'
-                    placeholder='ejemplo@gmail.com'
+                    placeholder='example@gmail.com'
                     />
                 </div>
                 <div className='mt-8'>
