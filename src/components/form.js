@@ -25,10 +25,10 @@ export default function Form(){
                     <button className='text-color-cuatro active:scale-[.98] hover:scale-[1.01]'>¿Olvidaste tu contraseña?</button>
                 </div>
                 <div className='active:scale-[.98] hover:scale-[1.01] py-3 rounded-xl mt-8 flex flex-col bg-color-cinco text-white'>
-                    <button>Ingresar</button>
+                    <button>INGRESAR</button>
                 </div>
                 <div className='active:scale-[.98] hover:scale-[1.01] py-3 rounded-xl mt-8 flex flex-col bg-color-uno text-white'>
-                    <button>Registrarse</button>
+                    <button>REGISTRAR</button>
                 </div>
                 
             </div>
