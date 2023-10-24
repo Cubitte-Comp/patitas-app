@@ -16,7 +16,7 @@ export default function Menu(){
           <li className='active:scale-[.98] hover:scale-[1.10]'><a href="#tienda">Tienda</a></li>
         </ul>
 
-        <button className="bg-color-seis text-gray-900 px-4 py-2 rounded active:scale-[.98] hover:scale-[1.08] rounded-xl text-black">
+        <button className=" botonMenu bg-color-seis text-gray-900 px-4 py-2 rounded active:scale-[.98] hover:scale-[1.08] rounded-xl text-black">
           Contactenos
         </button>
 
