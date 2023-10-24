@@ -36,3 +36,168 @@ code {
   width: 400px; /* Define el ancho de la imagen en 200 píxeles */
   height: 370px;
 }
+
+.menu {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; 
+}
+
+.form {
+  max-width: 500px;
+}
+
+/* Menu.css */
+
+.menu {
+  
+  display: flex;
+  align-items: center;
+}
+
+.menu-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.nombrec {
+  transform: translate(75px, 10px);
+  height: 25px;
+  width: 1000px;
+}
+
+.nombre {
+  transform: translate(110px, 10px);
+  width: 250px;
+}
+.apellidoc {
+  transform: translate(75px, 30px);
+  height: 25px;
+  width: 1000px;
+}
+
+.apellido {
+  transform: translate(110px, 30px);
+  width: 250px;
+}
+
+.dpi {
+  transform: translate(140px, 45px);
+  width: 200px;
+}
+
+.dpic {
+  transform: translate(75px, 51px);
+  
+  height: 25px;
+  width: 800px;
+}
+.correo {
+  transform: translate(87px, 60px);
+  width: 200px;
+}
+
+.correoc {
+  transform: translate(75px, 73px);
+  
+  height: 25px;
+  width: 800px;
+
+}
+.telefono {
+  transform: translate(106px, 73px);
+  width: 200px;
+}
+
+.telefonoc {
+  transform: translate(75px, 73px);
+  
+  height: 25px;
+  width: 800px;
+
+}
+.contraseña {
+  transform: translate(85px, 98px);
+  width: 200px;
+}
+
+.contraseñac {
+  transform: translate(75px, 150px);
+  
+  height: 25px;
+  width: 800px;
+
+}
+
+.confirmar {
+  transform: translate(85px, 108px);
+  width: 200px;
+}
+
+.direccionc {
+  transform: translate(75px, 123px);
+  
+  height: 25px;
+  width: 800px;
+
+}
+
+.direccion {
+  transform: translate(100px, 123px);
+  width: 200px;
+}
+
+.confirmarc {
+  transform: translate(75px, 73px);
+  
+  height: 25px;
+  width: 800px;
+
+}
+
+.boton {
+  transform: translate(325px, 130px);
+  height: 45px;
+  width: 150px;
+  transition: transform 0.3s ease; /* Agrega una transición a la propiedad transform */
+}
+
+.boton:hover {
+  transform: translate(325px, 130px) scale(1.1); /* Al pasar el ratón, aumenta el tamaño del botón */
+}
+.boton:active{
+  
+  transform: translate(325px, 130px) scale(.98);
+}
+
+
+.vector {
+  transform: translate(1px, -183px);
+  
+  height: 350px;
+  width: 4975px;
+  position: absolute;
+  z-index: -1;
+
+}
+/* App.css */
+
+.form {
+  position: relative;
+  z-index: 1;
+}
+
+.check {
+  transform: translate(-350px,200px);
+}
+
+.check:hover {
+  transform: translate(-350px,200px) scale(1.01); /* Al pasar el ratón, aumenta el tamaño del botón */
+}
+.check:active{
+  
+  transform: translate(-350px,200px) scale(.98);
+}
