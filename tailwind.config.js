@@ -10,6 +10,8 @@ module.exports = {
         'color-tres': '#5899E2',
         'color-cuatro': '#3139FF',  // Color #3139FF
         'color-cinco':'#6F73D2',
+        'color-seis':'#D9F0FF',
+        'color-siete':'#83C9F4',
       },
 
       textColor: {
