@@ -219,19 +219,47 @@ code {
 }
 
 .vectorPrincipal {
-  transform: translate(-1px, -118px);
+  transform: translate(-0px, -121px);
   
   height: 255px;
-  width: 4975px;
+  width: 4990px;
   position: absolute;
   z-index: -1;
 
 }
 
 .Contacto {
-  transform: translate(10px, 115px);
+  transform: translate(100px, 115px);
   
-  height: 100px;
-  width: 1700px;
+  height: 120px;
+  width: 1150px;
 
+}
+
+/*CARROUSEL*/
+.carousel img {
+  width: 10%; /* o px fijo */
+  height: auto; 
+  /* object-fit: cover; -> ya no necesario */
+}
+
+.carousel {
+  transform: translate(375px, 245px);
+  display: flex; 
+  justify-content: center;
+  width: 800px; /* o px fijo */
+  height: 500px; 
+}
+
+/* Modifica el CSS para los botones "Prev" y "Next" */
+.prev {
+  transform: translate(-800px, 0px);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.next {
+  transform: translate(0px, 0px);
+  font-weight: bold;
+  font-size: 25px;
 }
