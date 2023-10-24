@@ -14,6 +14,8 @@ code {
   font-family: 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New', monospace; /* Fuente para elementos <code> */
 }
 
+
+/*LOGIN*/
 .logo {
   transform: translate(-10px, 25px); /* Mueve la imagen 70 píxeles a la izquierda y 100 píxeles hacia arriba */
   width: 500px; /* Define el ancho de la imagen en 200 píxeles */
@@ -37,6 +39,8 @@ code {
   height: 370px;
 }
 
+
+/*REGISTRO*/
 .menu {
   position: fixed; 
   top: 0;
@@ -200,4 +204,34 @@ code {
 .check:active{
   
   transform: translate(-350px,200px) scale(.98);
+}
+
+
+/*PANTALLA PRINCIPAL*/
+.TextoGeneral {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.parrafoGeneral{
+  transform: translate(-350px, -15px);
+}
+
+.vectorPrincipal {
+  transform: translate(-1px, -118px);
+  
+  height: 255px;
+  width: 4975px;
+  position: absolute;
+  z-index: -1;
+
+}
+
+.Contacto {
+  transform: translate(10px, 115px);
+  
+  height: 100px;
+  width: 1700px;
+
 }
