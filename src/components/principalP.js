@@ -5,7 +5,9 @@ export default function Form(){
     return(
         
         <div >
-            <div>
+            
+            <div className='textoNostros'>
+                
                 <div className='parrafoGeneral '>
                     <div className='TextoGeneral'> 
                         <div>
@@ -23,6 +25,7 @@ export default function Form(){
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }

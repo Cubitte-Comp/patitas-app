@@ -14,6 +14,10 @@ code {
   font-family: 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New', monospace; /* Fuente para elementos <code> */
 }
 
+.botonMenu{
+  transform: translate(-24px, 0px);
+}
+
 
 /*LOGIN*/
 .logo {
@@ -219,7 +223,7 @@ code {
 }
 
 .vectorPrincipal {
-  transform: translate(-0px, -121px);
+  transform: translate(0px, -121px);
   
   height: 255px;
   width: 4990px;
@@ -236,6 +240,66 @@ code {
 
 }
 
+.titulo2 {
+  transform: translate(80px, 200px);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.figura{
+  transform: translate(410px, 105px);
+  
+  height: 120px;
+  width: 120px;
+
+}
+
+.mitadHoja{
+  transform: translate(0px, 200px);
+  height:650px;
+  
+  width: 1350px;
+}
+
+.huellitas {
+  transform: translate(-85px, 140px);
+  top: 200px; /* Ajusta la posición verticalmente según tus necesidades */
+  left: 250px; /* Ajusta la posición horizontalmente según tus necesidades */
+  height: 500px;
+  width: 800px;
+}
+
+.granja {
+  position: absolute;
+  top: 115px; /* Ajusta la posición verticalmente según tus necesidades */
+  left: 250px; /* Ajusta la posición horizontalmente según tus necesidades */
+  height: 400px;
+  width: 400px;
+}
+
+.tituloNosotros{
+  transform: translate(775px,-450px);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.parrafoNosotros {
+  transform: translate(750px, -440px);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.puntosNosotros {
+  transform: translate(800px, -400px);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+
+
 /*CARROUSEL*/
 .carousel img {
   width: 10%; /* o px fijo */
@@ -244,14 +308,12 @@ code {
 }
 
 .carousel {
-  transform: translate(375px, 245px);
+  transform: translate(375px, 150px);
   display: flex; 
   justify-content: center;
   width: 800px; /* o px fijo */
-  height: 500px; 
+  height: 430px; 
 }
-
-/* Modifica el CSS para los botones "Prev" y "Next" */
 .prev {
   transform: translate(-800px, 0px);
   font-weight: bold;

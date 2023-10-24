@@ -16,6 +16,7 @@ module.exports = {
 
       textColor: {
         'color-cuatro': '#3139FF',
+        'color-texto-1': '#65AFFF',
       },
       
     },
