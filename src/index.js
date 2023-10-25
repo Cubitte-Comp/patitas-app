@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import Login from './Login';
 import reportWebVitals from './reportWebVitals';
+//import Login from './Login';
 //import Regis from './Registro';
-import Pprincipal from './Principal';
+//import Pprincipal from './Principal';
+import Servicios from './Servicio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Pprincipal/>
-    
+    <Servicios/>
   </React.StrictMode>
 );
 
