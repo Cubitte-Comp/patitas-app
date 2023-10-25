@@ -325,3 +325,92 @@ code {
   font-weight: bold;
   font-size: 25px;
 }
+
+
+/*SERVICIOS*/
+
+.gotas2{
+  transform: translate(864px,-360px);
+  position: absolute;
+  z-index: -1;
+
+  height:400px;
+  
+  width: 500px;
+}
+
+.panel1{
+  transform: translate(100px,100px);
+  position: absolute;
+  z-index: -1;
+
+  height:300px;
+  
+  width: 500px;
+}
+
+.panel2{
+  transform: translate(750px,15px);
+
+  height:505px;
+  
+  width: 475px;
+}
+
+.nombreS{
+  transform: translate(90px, 15px);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.descripS{
+  transform: translate(125px, 30px);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.nombreC{
+  transform: translate(30px, 40px);
+  max-width:415px;
+}
+
+.correoE{
+  transform: translate(30px, 40px);
+  max-width:415px;
+}
+
+.Fecha{
+  transform: translate(30px, 40px);
+  max-width:415px;
+}
+
+.Horario{
+  transform: translate(30px, 40px);
+  max-width:415px;
+}
+
+.Service{
+  transform: translate(30px, 40px);
+  max-width:415px;
+}
+
+.btnSolicitar {
+  transform: translate(155px,25px);
+  
+  width: 150px;
+}
+
+.btnSolicitar:hover {
+  transform:  translate(155px,25px) scale(1.01); 
+}
+.btnSolicitar:active{
+  
+  transform: translate(155px,25px) scale(.98);
+}
+
+.TextoPanel{
+  transform: translate(130px, 125px);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
