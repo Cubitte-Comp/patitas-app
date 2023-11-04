@@ -330,7 +330,7 @@ code {
 /*SERVICIOS*/
 
 .gotas2{
-  transform: translate(864px,-360px);
+  transform: translate(842px,-400px);
   position: absolute;
   z-index: -1;
 
@@ -350,7 +350,7 @@ code {
 }
 
 .panel2{
-  transform: translate(750px,15px);
+  transform: translate(750px,-10px);
 
   height:505px;
   
@@ -413,4 +413,18 @@ code {
   transform: translate(130px, 125px);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+}
+
+.precio{
+  transform: translate(200px,450px);
+  height:40px;
+  width: 85px;
+  
+}
+
+.hora{
+  transform: translate(400px,409px);
+  height:25px;
+  width: 75px;
+  
 }

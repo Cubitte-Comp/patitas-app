@@ -6,6 +6,7 @@ export default function Form(){
         
         <div >
             
+            
             <div className='panel1 flex-1 bg-white border-2 border-black'>
             
                 <div className='TextoPanel'>
@@ -13,6 +14,19 @@ export default function Form(){
                 </div>
                 
             </div>
+            
+            <div className='precio '>
+                <div className='text-center text-white max-w-xs bg-color-dos rounded-xl'>
+                    <label >Q175.00</label>
+                </div>
+                
+            </div>
+            <div>
+            <div className='hora text-center text-white max-w-xs bg-color-dos rounded-xl'>
+                    <label >1:30</label>
+                </div>
+            </div>
+
             <div className='panel2 flex-1 bg-color-seis rounded-xl'>
                 <div>
                     <div className='nombreS'>
