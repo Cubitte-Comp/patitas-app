@@ -73,97 +73,98 @@ code {
 
 .nombrec {
   transform: translate(75px, 10px);
-  height: 25px;
+  height: 35px;
   width: 1000px;
 }
 
 .nombre {
-  transform: translate(110px, 10px);
+  transform: translate(80px, 10px);
   width: 250px;
 }
 .apellidoc {
   transform: translate(75px, 30px);
-  height: 25px;
+  height: 35px;
   width: 1000px;
 }
 
 .apellido {
-  transform: translate(110px, 30px);
+  transform: translate(80px, 30px);
   width: 250px;
 }
 
 .dpi {
-  transform: translate(140px, 45px);
+  transform: translate(80px, 50px);
   width: 200px;
 }
 
 .dpic {
   transform: translate(75px, 51px);
   
-  height: 25px;
+  height: 35px;
   width: 800px;
 }
 .correo {
-  transform: translate(87px, 60px);
+  transform: translate(80px, 70px);
   width: 200px;
 }
 
 .correoc {
   transform: translate(75px, 73px);
   
-  height: 25px;
+  height: 35px;
   width: 800px;
 
 }
 .telefono {
-  transform: translate(106px, 73px);
+  transform: translate(80px, 73px);
   width: 200px;
 }
 
 .telefonoc {
   transform: translate(75px, 73px);
   
-  height: 25px;
+  height: 35px;
   width: 800px;
 
 }
 .contraseña {
-  transform: translate(85px, 98px);
+  transform: translate(80px, 98px);
   width: 200px;
 }
 
 .contraseñac {
-  transform: translate(75px, 150px);
+  transform: translate(75px, 95px);
   
-  height: 25px;
+  height: 35px;
   width: 800px;
 
 }
 
 .confirmar {
-  transform: translate(85px, 108px);
+  transform: translate(80px, 75px);
   width: 200px;
 }
 
-.direccionc {
-  transform: translate(75px, 123px);
+
+.confirmarc {
+  transform: translate(75px, 73px);
   
-  height: 25px;
+  height: 35px;
+  width: 800px;
+
+}
+
+.direccionc {
+  transform: translate(75px, 100px);
+  
+  height: 35px;
   width: 800px;
 
 }
 
 .direccion {
-  transform: translate(100px, 123px);
+  transform: translate(75px, 100px);
   width: 200px;
-}
-
-.confirmarc {
-  transform: translate(75px, 73px);
-  
-  height: 25px;
-  width: 800px;
-
 }
 
 .boton {
@@ -266,9 +267,9 @@ code {
 .huellitas {
   transform: translate(-85px, 140px);
   top: 200px; /* Ajusta la posición verticalmente según tus necesidades */
-  left: 250px; /* Ajusta la posición horizontalmente según tus necesidades */
-  height: 500px;
-  width: 800px;
+  left: 280px; /* Ajusta la posición horizontalmente según tus necesidades */
+  height: 550px;
+  width: 500px;
 }
 
 .granja {
@@ -280,20 +281,20 @@ code {
 }
 
 .tituloNosotros{
-  transform: translate(775px,-450px);
+  transform: translate(350px,40px);
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 40px;
 }
 
 .parrafoNosotros {
-  transform: translate(750px, -440px);
+  transform: translate(800px, -440px);
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
 .puntosNosotros {
-  transform: translate(800px, -400px);
+  transform: translate(-500px, 300px);
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
@@ -427,4 +428,183 @@ code {
   height:25px;
   width: 75px;
   
+}
+
+
+/*HEADER*/
+.user{
+  height:25px;
+  width: 25px;
+}
+.carrito{
+  height:25px;
+  width: 25px;
+}
+
+
+
+/*VISTA VETERINARIOS*/
+.busqueda{
+  transform: translate(280px,30px);
+  height:35px;
+  width: 700px;
+  
+}
+.buscar{
+  transform: translate(1000px,-3px);
+  height:30px;
+  width: 30px;
+}
+.div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:200px;
+  width: 400px; 
+}
+
+.div2 {
+  position: absolute;
+  top: 80px; 
+  left: 0;
+  height:210px;
+  width: 400px;
+}
+
+.contenedor {
+  max-width: 7xl;
+  margin: 0 auto; 
+  height: 750px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  width: 30%; 
+}
+
+.tarjetaO {
+  width: 30%; 
+  overflow: hidden;
+}
+
+.interior1{
+  transform: translate(20px);
+  height:175px;
+  width: 175px;
+}
+
+.nombreV1 {
+  transform: translate(250px, -176px);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.nombreV2 {
+  transform: translate(250px, -176px);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.nombreV3 {
+  transform: translate(250px, -178px);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.nombreV4 {
+  transform: translate(50px, 50px);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.nombreV5 {
+  transform: translate(270px, -176px);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.nombreV6 {
+  transform: translate(270px, -176px);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.espeV1 {
+  transform: translate(220px, -176px);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.espeV2 {
+  transform: translate(220px, -176px);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.espeV3 {
+  transform: translate(220px, -178px);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.expV1 {
+  transform: translate(220px, -176px);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.expV2 {
+  transform: translate(220px, -176px);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.expV3 {
+  transform: translate(220px, -178px);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contacto2{
+  transform: translate(180px, -80px);
+}
+
+.contacto3{
+  transform: translate(595px, -150px);
+}
+
+.contacto4{
+  transform: translate(1010px, -220px);
+}
+
+.contacto5{
+  transform: translate(180px, -618px);
+}
+
+.contacto6{
+  transform: translate(600px, -685px);
+}
+
+.contacto7{
+  transform: translate(1015px, -754px);
 }

@@ -1,6 +1,5 @@
 // App.js
 
-import './App.css';
 
 import Regis from "./components/registro";
 import Menu from "./components/menu";
