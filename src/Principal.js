@@ -30,7 +30,7 @@ function App() {
         </div>
         
         <div className="mitadHoja h-screen flex flex-col ">
-          <div className="flex-1 bg-color-dos">
+          <div className="flex bg-color-dos">
             
             <img className='huellitas' src={Huellas} alt=""/>
             <img className='granja' src={Animales} alt=""/>

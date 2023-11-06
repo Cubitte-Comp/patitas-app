@@ -24,7 +24,7 @@ export default function Form(){
                 </div>
 
             <div className="mt-0 flex flex-row">
-                <label className='apellido'>Apelldio</label>
+                <label className='apellido'>Apellido</label>
                 <input 
                     className='apellidoc border-2 border-black'
                 />
@@ -41,7 +41,7 @@ export default function Form(){
                     className='correoc border-2 border-black'
                 />
             </div>
-            <div className="mt-0 flex flex-row">
+            <div className="mt-0 flex flex-row mt-5">
                 <label className='telefono'>Telefono</label>
                 <input 
                     className='telefonoc border-2 border-black'
@@ -54,7 +54,7 @@ export default function Form(){
                     type="password"
                 />
             </div>
-            <div className="mt-0 flex flex-row">
+            <div className="mt-0 flex flex-row mt-10">
                 <label className='confirmar'>Confirmar Contraseña</label>
                 <input 
                     className='confirmarc border-2 border-black'
