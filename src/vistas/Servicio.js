@@ -2,7 +2,7 @@
 
 import Servicio from "../components/servicio";
 import Menu from "../components/menu";
-import Gotas2 from "./images/gotas2.png";
+import Gotas2 from "../images/gotas2.png";
 
 function App() {
 
