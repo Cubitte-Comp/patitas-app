@@ -431,7 +431,7 @@ code {
 }
 
 
-/*HEADER*/
+*HEADER*/
 .user{
   height:25px;
   width: 25px;
@@ -607,4 +607,113 @@ code {
 
 .contacto7{
   transform: translate(1015px, -754px);
+}
+
+
+/*REGISTRAR MASCOTAS*/
+.contenedorMascotas {
+  max-width: 7xl;
+  margin: 0 auto; 
+  height: 950px;
+  overflow-x: hidden; 
+}
+
+.mascota{
+  transform: translate(55px, 80px);
+  height:800px;
+  width: 1150px;
+}
+
+.tituloForm{
+  transform: translate(100px, -20px);
+  
+}
+
+.NombreMascota{
+  transform: translate(75px, 40px);
+  width: 985px;
+  height:40px;
+}
+
+.nombreM{
+  font-size: 25px;
+  transform: translate(95px, 35px);
+}
+
+.EspecieMascota{
+  transform: translate(75px, 72px);
+  width: 450px;
+  height:40px;
+}
+
+.especieM{
+  font-size: 25px;
+  transform: translate(95px, 65px);
+}
+
+.RazaMascota{
+  transform: translate(607px, 5px);
+  width: 450px;
+  height:40px;
+}
+
+.razaM{
+  font-size: 25px;
+  transform: translate(630px,0px);
+}
+
+.FecMascota{
+  transform: translate(75px, 35px);
+  width: 983px;
+  height:40px;
+}
+
+.fecM{
+  font-size: 25px;
+  transform: translate(95px,30px);
+}
+
+.GeneroMascota{
+  transform: translate(80px, 75px);
+  width: 450px;
+  height:40px;
+}
+
+.generoM{
+  font-size: 25px;
+  transform: translate(95px,70px);
+}
+
+.InfoMascota{
+  transform: translate(80px, 115px);
+  width: 450px;
+  height:190px;
+}
+
+.infoM{
+  font-size: 25px;
+  transform: translate(95px,110px);
+}
+
+.FotoMascota{
+  transform: translate(615px, -100px);
+  width: 300px;
+  height:188px;
+}
+
+.fotoM{
+  font-size: 25px;
+  transform: translate(635px,-105px);
+}
+
+.botonMas {
+  transform: translate(0, 0);
+  height: 35px;  
+  width: 110px;
+  
+  transition: transform 0.5s ease-out; 
+}
+
+.botonMas:hover {
+  transform: translate(-200px, 35px);
 }
