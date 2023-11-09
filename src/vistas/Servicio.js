@@ -4,7 +4,7 @@ import Servicio from "../components/servicio";
 import Menu from "../components/menu";
 import Gotas2 from "../images/gotas2.png";
 
-function App() {
+export function Servicios() {
 
   return (
     <div>
@@ -24,5 +24,3 @@ function App() {
   );
 
 }
-
-export default App;

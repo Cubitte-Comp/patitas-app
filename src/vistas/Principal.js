@@ -7,29 +7,31 @@ import Carrousel from "../components/carrousel";
 import Figura from "../images/logoser.png";
 import Huellas from "../images/huellas.png";
 import Animales from "../images/animales.png";
+import { Element } from 'react-scroll';
 
-
-function App() {
+export function Home() {
     return (
       <div>
         
         <Menu />
-
-        <div className="form max-w-lg mx-auto pt-12">
-            <Principal />
-        </div>
-        <img className='Contacto' src={contacto} alt=""/>
-        <img className='vectorPrincipal' src={vector} alt=""/>
-
-        <div className='titulo2 max-w-xl'>
-          <label >NUESTROS SERVICIOS</label>
-        </div>
-        <div>
-            <img className='figura' src={Figura} alt=""/>
-            <Carrousel/>
-        </div>
-        
-        <div className="mitadHoja h-screen flex flex-col ">
+        <Element name="inicio">
+            <div  className="form max-w-lg mx-auto pt-12">
+                <Principal />
+            </div>
+            <img className='Contacto' src={contacto} alt=""/>
+            <img className='vectorPrincipal' src={vector} alt=""/>
+        </Element>
+        <Element name="servicio">
+            <div className='titulo2 max-w-xl'>
+            <label >NUESTROS SERVICIOS</label>
+            </div>
+            <div>
+                <img className='figura' src={Figura} alt=""/>
+                <Carrousel/>
+            </div>
+        </Element>
+        <Element name="nosotros">
+        <div id="nosotros" className="mitadHoja h-screen flex flex-col ">
           <div className="flex bg-color-dos">
             
             <img className='huellitas' src={Huellas} alt=""/>
@@ -66,10 +68,10 @@ function App() {
                     </div>
                 </div>
       </div>
+      </Element>
 
 
       </div>
     );
   }
   
-  export default App;
