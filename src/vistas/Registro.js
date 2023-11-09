@@ -1,8 +1,8 @@
 // App.js
 
 
-import Regis from "./components/registro";
-import Menu from "./components/menu";
+import Regis from "../components/registro";
+import Menu from "../components/menu";
 import vector from './images/Vector 9.png';
 
 function App() {

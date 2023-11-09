@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './mascotasVista';
+import Header from './vistas/mascotasVista';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

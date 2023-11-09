@@ -1,7 +1,7 @@
 // App.js
 
-import Menu from "./components/menu";
-import VIEW from "./components/viewVeterinarios";
+import Menu from "../components/menu";
+import VIEW from "../components/viewVeterinarios";
 
 function App() {
   return (

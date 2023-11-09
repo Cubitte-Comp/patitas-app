@@ -1,7 +1,7 @@
 // App.js
 
-import Servicio from "./components/servicio";
-import Menu from "./components/menu";
+import Servicio from "../components/servicio";
+import Menu from "../components/menu";
 import Gotas2 from "./images/gotas2.png";
 
 function App() {

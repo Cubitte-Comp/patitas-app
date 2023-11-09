@@ -1,7 +1,7 @@
 // App.js
 
 
-import Menu from "./components/header";
+import Menu from "../components/header";
 
 function App() {
 
