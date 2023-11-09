@@ -720,6 +720,5 @@ code {
   transform: translate(700px,35px) scale(1.01); /* Al pasar el ratón, aumenta el tamaño del botón */
 }
 .botonM:active{
-  
   transform: translate(700px,35px) scale(.98);
 }
