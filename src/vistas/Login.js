@@ -1,9 +1,9 @@
-import './index.css';
+import '../index.css';
 import Form from "../components/form";
-import patitasImage from './images/patitas.png'; 
-import esquinaImage from './images/esquina.png';
-import esquina2Image from './images/esquina2.png';
-import dog from './images/imagenPerrito.png';
+import patitasImage from '../images/patitas.png'; 
+import esquinaImage from '../images/esquina.png';
+import esquina2Image from '../images/esquina2.png';
+import dog from '../images/imagenPerrito.png';
 
 
 function App() {
