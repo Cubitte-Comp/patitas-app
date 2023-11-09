@@ -1,9 +1,9 @@
 export default function Menu() {
     return (
-    <div className="contenedorMascotas max-w-7xl mx-auto">
+    <div className="contenedorMascotas max-w-7xl mx-auto flex">
         
         <div>
-            <div className="mascota bg-color">
+            <div className="mascota bg-color mb-4">
             <div>
             <input className="tituloForm bg-color-uno p-2 placeholder-black rounded-xl"
                 placeholder="     DETALLES BASICOS"/>
@@ -45,8 +45,11 @@ export default function Menu() {
         <input
             className=" FotoMascota bg-color border-2 border-black rounded-xl"
         />
-        <button className="botonMas bg-color-siete rounded-xl ">Registrarse</button>
-
+        <button 
+            class="botonM bg-blue-500 text-white px-4 py-2 rounded"
+            >
+                Registrar
+        </button>
         </div>
         </div>
     </div>

@@ -431,7 +431,7 @@ code {
 }
 
 
-*HEADER*/
+/*HEADER*/
 .user{
   height:25px;
   width: 25px;
@@ -706,14 +706,20 @@ code {
   transform: translate(635px,-105px);
 }
 
-.botonMas {
-  transform: translate(0, 0);
-  height: 35px;  
-  width: 110px;
-  
-  transition: transform 0.5s ease-out; 
+.botonM {
+  transform: translate(700px,35px);
+  background-color: #007bff;
+  color: #fff; 
+  border: none;
+  padding: 8px 25px;
+  border-radius: 4px;
+  cursor: pointer; 
 }
 
-.botonMas:hover {
-  transform: translate(-200px, 35px);
+.botonM:hover {
+  transform: translate(700px,35px) scale(1.01); /* Al pasar el ratón, aumenta el tamaño del botón */
+}
+.botonM:active{
+  
+  transform: translate(700px,35px) scale(.98);
 }
