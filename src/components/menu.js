@@ -1,26 +1,38 @@
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import logo from '../images/logo.png';
 
-
-export default function Menu(){
+export default function Menu() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
   return (
     <div>
-      <nav className="bg-color-uno p-0 flex items-center ">
-        
-      <img src={logo} className="menu-logo" alt="" />
+      <nav className="bg-color-uno p-0 flex items-center">
+        <img src={logo} className="menu-logo" alt="" />
 
         <ul className="flex flex-1 justify-center space-x-4 text-white">
-          <li className='active:scale-[.98] hover:scale-[1.10]'><a href="#inicio">Inicio</a></li>
-          <li className='active:scale-[.98] hover:scale-[1.10]'><a href="#nosotros">Sobre nosotros</a></li>
-          <li className='active:scale-[.98] hover:scale-[1.10]'><a href="#servicio">Servicio</a></li>  
-          <li className='active:scale-[.98] hover:scale-[1.10]'><a href="#tienda">Tienda</a></li>
+          <li className='transform active:scale-98 hover:scale-110'>
+            <Link to="/" onClick={scrollToTop}>Inicio</Link>
+          </li>
+          <li className='transform active:scale-98 hover:scale-110'>
+            <ScrollLink to="nosotros" smooth>Sobre nosotros</ScrollLink>
+          </li>
+          <li className='transform active:scale-98 hover:scale-110'>
+            <ScrollLink to="servicio" smooth>Servicio</ScrollLink>
+          </li>  
+          <li className='transform active:scale-98 hover:scale-110'>
+            <ScrollLink to="tienda" smooth>Tienda</ScrollLink>
+          </li>
         </ul>
 
-        <button className=" botonMenu bg-color-seis text-gray-900 px-4 py-2 rounded active:scale-[.98] hover:scale-[1.08] rounded-xl text-black">
-          Contactenos
-        </button>
-
+        <Link to="/contacto">
+          <button className="botonMenu bg-color-seis text-gray-900 px-4 py-2 rounded active:scale-98 hover:scale-108 rounded-xl text-black">
+            Contáctenos
+          </button>
+        </Link>
       </nav>
     </div>
-  )
+  );
 }

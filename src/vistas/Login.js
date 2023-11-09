@@ -6,7 +6,7 @@ import esquina2Image from '../images/esquina2.png';
 import dog from '../images/imagenPerrito.png';
 
 
-function App() {
+export function Login() {
   return (
     <div className='flex w-full h-screen items-center justify-center'>
       <div className='w-1/4 ' > 
@@ -27,6 +27,5 @@ function App() {
     );
 }
 
-export default App;
 
 

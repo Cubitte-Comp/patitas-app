@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Header from './vistas/vistaVeterinario';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-  </React.StrictMode>
-);
+    <App />
 
-reportWebVitals();
+  </React.StrictMode>
+); 
+
+
 
