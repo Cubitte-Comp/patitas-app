@@ -5,6 +5,7 @@ import {Home} from './vistas/Principal'
 import {Servicios} from './vistas/Servicio'
 import {Login} from './vistas/Login'
 import {Mascotas} from './vistas/mascotasVista'
+import {Registro} from './vistas/Registro'
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
         <Route path='/home' element={<Home/>} />
         <Route path='/servicios' element={<Servicios/>} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/registro' element={<Registro/>} />
         <Route path='/mis-mascotas' element={<Mascotas/>} />
       </Routes>
     </BrowserRouter>
