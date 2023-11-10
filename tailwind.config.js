@@ -18,6 +18,9 @@ module.exports = {
         'color-cuatro': '#3139FF',
         'color-texto-1': '#65AFFF',
       },
+      width: {
+        '60': '60%',
+      },
       
     },
   },

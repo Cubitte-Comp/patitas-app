@@ -5,25 +5,20 @@ import Regis from "../components/registro";
 import Menu from "../components/menu";
 import vector from '../images/Vector 9.png';
 
-function App() {
+export function Registro() {
 
   return (
     <div>
       
       <Menu />
 
-      <div className="form max-w-lg mx-auto pt-12">
-
+      <div className="flex justify-center items-center h-screen">
         <Regis />
       </div>
-
-      <img className='vector' src={vector} alt=""/>
-
+      
+      <img className='vector' src={vector} alt="vector"/>
     </div>
   );
 
 }
-
-export default App;
-
 
