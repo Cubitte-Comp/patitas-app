@@ -22,14 +22,17 @@ export default function Menu() {
           <li className='transform active:scale-98 hover:scale-110'>
             <ScrollLink to="servicio" smooth>Servicio</ScrollLink>
           </li>  
+
           <li className='transform active:scale-98 hover:scale-110'>
-            <ScrollLink to="tienda" smooth>Tienda</ScrollLink>
+            <Link to="/contactenos">
+              Contactenos
+          </Link>
           </li>
         </ul>
 
-        <Link to="/contacto">
+        <Link to="/login">
           <button className="botonMenu bg-color-seis text-gray-900 px-4 py-2 rounded active:scale-98 hover:scale-108 rounded-xl text-black">
-            Contáctenos
+            Login
           </button>
         </Link>
       </nav>

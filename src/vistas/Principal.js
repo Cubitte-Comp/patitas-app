@@ -1,7 +1,7 @@
 import '../index.css';
 import vector from '../images/Vector 8.png';
 import contacto from '../images/contacto.png';
-import Menu from "../components/menu";
+
 import Principal from "../components/principalP";
 import Carrousel from "../components/carrousel";
 import Figura from "../images/logoser.png";
@@ -9,11 +9,12 @@ import Huellas from "../images/huellas.png";
 import Animales from "../images/animales.png";
 import { Element } from 'react-scroll';
 
+
 export function Home() {
+    
     return (
       <div>
         
-        <Menu />
         <Element name="inicio">
             <div  className="form max-w-lg mx-auto pt-12">
                 <Principal />
