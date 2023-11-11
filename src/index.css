@@ -381,9 +381,9 @@ code {
   max-width:415px;
 }
 
-.Fecha{
-  transform: translate(30px, 40px);
-  max-width:415px;
+.Fecha {
+  transform: translate(33px, 55px);
+  max-width: 186px;
 }
 
 .Horario{
@@ -397,17 +397,17 @@ code {
 }
 
 .btnSolicitar {
-  transform: translate(155px,25px);
+  transform: translate(155px,45px);
   
   width: 150px;
 }
 
 .btnSolicitar:hover {
-  transform:  translate(155px,25px) scale(1.01); 
+  transform:  translate(155px,45px) scale(1.01); 
 }
 .btnSolicitar:active{
   
-  transform: translate(155px,25px) scale(.98);
+  transform: translate(155px,45px) scale(.98);
 }
 
 .TextoPanel{
@@ -419,8 +419,7 @@ code {
 .precio{
   transform: translate(200px,450px);
   height:40px;
-  width: 85px;
-  
+  width: 80px;
 }
 
 .hora{
@@ -428,6 +427,12 @@ code {
   height:25px;
   width: 75px;
   
+}
+
+.aseoperros{
+  transform: translate(-130px,-125px);
+  height:296px;
+  width: 500px;
 }
 
 
@@ -723,3 +728,50 @@ code {
 .botonM:active{
   transform: translate(700px,35px) scale(.98);
 }
+
+/*CONTACTENOS*/
+
+
+.contactoForm {
+  transform: translate(-200px, 150px);
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.ubi {
+  transform: translate(5px, 10px);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.frase1 {
+  transform: translate(300px, -110px);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nomI {
+  transform: translate(300px, -70px);
+  width: 515px;
+  height:35px;
+}
+
+.area {
+  transform: translate(300px, -65px);
+  width: 515px;
+  height:100px;
+}
+
+.butE {
+  transform: translate(305px, -50px);
+}
+
+.butE:hover {
+  transform: translate(305px,-50px) scale(1.01); /* Al pasar el ratón, aumenta el tamaño del botón */
+}
+
+.butE:active{
+  transform: translate(305px,-50px) scale(.98);
+}
+

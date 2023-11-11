@@ -37,7 +37,7 @@ export default function Menu() {
         />
 
         <label className='infoM text-lg font-medium text-center flex items-center'>Informacion Medica *</label>
-        <input
+        <textarea
             className=" InfoMascota bg-color border-2 border-black rounded-xl"
         />
 
