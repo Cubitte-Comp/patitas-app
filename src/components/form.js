@@ -38,8 +38,7 @@ export default function Form(){
                 document.cookie = `token=${data.token}; max-age=${60 * 60 * 24 * 7} path=/; samesite=strict`
               // Redirigir a la página principal
               navigate('/');
-
-              
+              window.location.reload();
             } else {
               // Mostrar un mensaje de error si la respuesta no es la esperada
               toast.error('Error al iniciar sesión. Verifica tus credenciales.', {

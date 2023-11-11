@@ -2,15 +2,17 @@
 
 import Form from "../components/contacForm";
 
-function Contactenos() {
+
+export function Contactenos() {
 
   return (
+    
     <div className="bg-[#274060] min-h-screen">
-      <Form/>
+      <Form />
     </div>
   );
 
 }
 
-export default Contactenos;
+
 

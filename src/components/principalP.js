@@ -5,7 +5,6 @@ export default function Form(){
     return(
         
         <div >
-            
             <div className='textoNostros'>
                 
                 <div className='parrafoGeneral '>
