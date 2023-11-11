@@ -701,18 +701,18 @@ code {
 }
 
 .FotoMascota{
-  transform: translate(615px, -100px);
-  width: 300px;
-  height:188px;
+  transform: translate(615px, -215px);
+  width: 350px;
+  height:60px;
 }
 
 .fotoM{
   font-size: 25px;
-  transform: translate(635px,-105px);
+  transform: translate(630px,-220px);
 }
 
 .botonM {
-  transform: translate(700px,35px);
+  transform: translate(1000px,45px);
   background-color: #007bff;
   color: #fff; 
   border: none;
@@ -722,11 +722,11 @@ code {
 }
 
 .botonM:hover {
-  transform: translate(700px,35px) scale(1.01); /* Al pasar el ratón, aumenta el tamaño del botón */
+  transform: translate(1000px,45px) scale(1.01); /* Al pasar el ratón, aumenta el tamaño del botón */
 }
 
 .botonM:active{
-  transform: translate(700px,35px) scale(.98);
+  transform: translate(1000px,45px) scale(.98);
 }
 
 /*CONTACTENOS*/

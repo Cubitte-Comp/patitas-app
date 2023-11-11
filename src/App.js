@@ -6,6 +6,7 @@ import {Servicios} from './vistas/Servicio'
 import {Login} from './vistas/Login'
 import {Mascotas} from './vistas/mascotasVista'
 import {Registro} from './vistas/Registro'
+
 function App() {
   return (
     <BrowserRouter>

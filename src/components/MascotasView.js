@@ -1,4 +1,4 @@
-export default function Menu() {
+export default function MascotasView() {
     return (
     <div className="contenedorMascotas max-w-7xl mx-auto flex">
         
@@ -7,7 +7,7 @@ export default function Menu() {
             <div>
             <input className="tituloForm bg-color-uno p-2 placeholder-black rounded-xl"
                 placeholder="     DETALLES BASICOS"/>
-                
+            
         </div>
 
 
@@ -40,11 +40,16 @@ export default function Menu() {
         <textarea
             className=" InfoMascota bg-color border-2 border-black rounded-xl"
         />
+        <form encType="multipart/form-data">
+            <label className='fotoM text-lg font-medium text-center flex items-center'>Foto de la Mascota *</label>
+            <input
+            type="file"
+            accept=".jpg, .jpeg" // Limita la selección a archivos JPG
+            className="FotoMascota bg-color border-2 border-black rounded-xl"
+            />
+            <button type="submit">Enviar</button>
+        </form>
 
-        <label className='fotoM text-lg font-medium text-center flex items-center'>Foto de la Mascota *</label>
-        <input
-            className=" FotoMascota bg-color border-2 border-black rounded-xl"
-        />
         <button 
             class="botonM bg-blue-500 text-white px-4 py-2 rounded"
             >
